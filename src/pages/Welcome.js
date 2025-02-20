@@ -9,10 +9,10 @@ function Welcome() {
         {/* Header Section */}
         <div className="text-center space-y-4 mb-8">
           <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-            BRAIN BLAST
+            QUIZ PLATFORM
           </h1>
           <p className="text-lg md:text-xl text-purple-200">
-            Test Your Knowledge!
+            Test Your Knowledge!!
           </p>
         </div>
 

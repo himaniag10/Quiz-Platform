@@ -9,9 +9,11 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900">
       <Router>
         <Routes>
-          <Route path="/" element={<Welcome />} />
-          <Route path="/quiz" element={<QuizPage />} />
-          <Route path="/result" element={<ResultPage />} />
+          <Route element={<Layout />}>
+            <Route path="/" element={<Welcome />} />
+            <Route path="/quiz" element={<QuizPage />} />
+            <Route path="/result" element={<ResultPage />} />
+          </Route>
         </Routes>
       </Router>
     </div>
