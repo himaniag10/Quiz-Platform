@@ -5,7 +5,7 @@ Quiz Platform is a web-based application that allows users to test their knowled
 ## Features
 
 - **Interactive Quiz Experience** – Timed questions with multiple-choice and structured formats.
-- **ScoreBoard System** – Tracks scores and ranks users based on performance.
+- **Scoreboard System** – Tracks scores and ranks users based on performance.
 - **Progress Tracking** – Users can view past attempts and improve their scores.
 - **Smooth Navigation** – Implemented using React Router for a seamless experience.
 - **Responsive Design** – Optimized UI that adapts to different screen sizes.
@@ -15,7 +15,7 @@ Quiz Platform is a web-based application that allows users to test their knowled
 
 ## Live Demo
 
-[**Deployed Application**](https://quizbrainblast.netlify.app/) 
+[**Deployed Application**](#) *(Replace with the actual deployment link once available)*
 
 ## Getting Started
 
@@ -23,21 +23,28 @@ Follow the steps below to set up and run the project locally.
 
 ### 1. Clone the Repository
 
-```bash
+```sh
 git clone https://github.com/himaniag10/Quiz-Platform.git
 cd quiz-platform
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
 
+```sh
 npm install
+```
 
-3. Start the Development Server
+### 3. Start the Development Server
 
+```sh
 npm start
-The application will be available at http://localhost:3000/.
+```
 
-Project Structure
+The application will be available at **http://localhost:3000/**.
 
+## Project Structure
+
+```lua
 quiz-platform/
 │-- src/
 │   │-- components/
@@ -65,28 +72,27 @@ quiz-platform/
 │-- public/
 │-- package.json
 │-- README.md
+```
 
-Technologies Used
+## Technologies Used
 
-React.js – Component-based frontend framework.
-React Router – Enables smooth page transitions.
-Tailwind CSS – Modern and responsive UI design.
-IndexedDB – Local database for storing quiz progress.
-Netlify  – Deployment platform.
+* **React.js** – Component-based frontend framework.
+* **React Router** – Enables smooth page transitions.
+* **Tailwind CSS** – Modern and responsive UI design.
+* **IndexedDB** – Local database for storing quiz progress.
+* **Netlify** – Deployment platform.
 
-Deployment Guide
+## Deployment Guide
 
+### Deploying on Netlify
 
-Deploying on Netlify
-Log in to Netlify.
-Click "New Site from Git" and connect your repository.
-Configure the build settings:
-Build command: npm run build
-Publish directory: build
-Click "Deploy" to publish your site.
+1. Log in to **Netlify**.
+2. Click **"New Site from Git"** and connect your repository.
+3. Configure the build settings:
+   * **Build command:** `npm run build`
+   * **Publish directory:** `build`
+4. Click **"Deploy"** to publish your site.
 
-License
-This project is licensed under the MIT License.
+## License
 
-
-This version is **clean, well-structured, and professional**—perfect for an internship submission. Let me know if you need any changes! 
+This project is licensed under the **MIT License**.
