@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Quiz Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Quiz Platform is a web-based application that allows users to test their knowledge through interactive quizzes. The platform provides a seamless experience with smooth navigation, a leaderboard system, and a visually appealing design.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Interactive Quiz Experience** – Timed questions with multiple-choice and structured formats.
+- **ScoreBoard System** – Tracks scores and ranks users based on performance.
+- **Progress Tracking** – Users can view past attempts and improve their scores.
+- **Smooth Navigation** – Implemented using React Router for a seamless experience.
+- **Responsive Design** – Optimized UI that adapts to different screen sizes.
+- **Animated UI Components** – Engaging user experience with smooth transitions.
+- **Quiz Timer** – Countdown timer to maintain time-based quiz challenges.
+- **Data Storage** – Uses IndexedDB for storing quiz progress locally.
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[**Deployed Application**](https://quizbrainblast.netlify.app/) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+Follow the steps below to set up and run the project locally.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone the Repository
 
-### `npm run build`
+```bash
+git clone https://github.com/himaniag10/Quiz-Platform.git
+cd quiz-platform
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the Development Server
 
-### `npm run eject`
+npm start
+The application will be available at http://localhost:3000/.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+quiz-platform/
+│-- src/
+│   │-- components/
+│   │   │-- Layout/
+│   │   │   │-- Header.js
+│   │   │   │-- Footer.js
+│   │   │   │-- Layout.js
+│   │   │-- Quiz/
+│   │   │   │-- AttemptHistory.js
+│   │   │   │-- QuizQuestion.js
+│   │   │   │-- QuizTimer.js
+│   │   │   │-- ScoreBoard.js
+│   │-- data/
+│   │   │-- questions.json
+│   │-- pages/
+│   │   │-- Welcome.js
+│   │   │-- QuizPage.js
+│   │   │-- ResultPage.js
+│   │-- utils/
+│   │   │-- IndexedDB.js
+│   │   │-- timer.js
+│   │-- App.js
+│   │-- index.css
+│   │-- index.js
+│-- public/
+│-- package.json
+│-- README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React.js – Component-based frontend framework.
+React Router – Enables smooth page transitions.
+Tailwind CSS – Modern and responsive UI design.
+IndexedDB – Local database for storing quiz progress.
+Netlify  – Deployment platform.
 
-## Learn More
+Deployment Guide
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deploying on Netlify
+Log in to Netlify.
+Click "New Site from Git" and connect your repository.
+Configure the build settings:
+Build command: npm run build
+Publish directory: build
+Click "Deploy" to publish your site.
 
-### Code Splitting
+License
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This version is **clean, well-structured, and professional**—perfect for an internship submission. Let me know if you need any changes! 
