@@ -15,7 +15,7 @@ Quiz Platform is a web-based application that allows users to test their knowled
 
 ## Live Demo
 
-[**Deployed Application**](#) *(Replace with the actual deployment link once available)*
+[**Deployed Application**](https://quizbrainblast.netlify.app/)
 
 ## Getting Started
 
